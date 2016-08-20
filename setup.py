@@ -47,7 +47,7 @@ setup_options = dict(
                            "seqlearn/_decode/viterbi.pyx",
                            "seqlearn/_utils/ctrans.pyx",
                            "seqlearn/_utils/safeadd.pyx"]),
-    requires=["sklearn"],
+    requires=["sklearn", "numpy", "scipy", "Cython"],
 )
 
 # For these actions, NumPy is not required. We want them to succeed without,
